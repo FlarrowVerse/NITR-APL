@@ -1,0 +1,25 @@
+1. Implement a graph traversal algorithm (BFS or DFS) for an undirected graph G(V, E).
+
+2. Write a program to detect cycle in an undirected graph.
+
+3. Let s and t be 2 vertices of an undirected graph G(V, E). A particle sits at vertex s, and wants to reach vertex t. In first hop it expends 1 unit energy, in second hop 2 units, in 3rd hop 4 units. In general in i-th hop, the particle expends 2^i units of energy. Write a program for the particle to reach t from s, after expending minimum possible energy.
+
+4. Write a program to store a binary search tree in array based representation:
+- Any node can appear at any index
+- index of root node is maintained separately
+- For i=0 to n-1,
+	* key[i] stores the key
+	* left[i]/right[i] stores the index of the left or right child (-1 it does not exist) 
+	* Your program must support insertion and deletion in tree (if a key) already exists no change is made
+Sample Tree:
+
+Size: 8
+Root: 3
+-------------------------------------------
+Index: 0   1    2    3    4    5   6    7
+-------------------------------------------
+Key:   9   12   21   17   32   4   25   6
+Left:  -1  -1   -1   7    2    -1  -1   5
+Right: 1   -1   6    4    -1   -1  -1   0
+
+5. You have n gardens, labeled 1 to n, and an array of paths where paths[i] = [x_i, y_i] describes a bi-directional path between garden x_i to garden y_i. In each garden, you want to plant one of 4 types of flowers. All gardens have at most 3 paths coming or leaving it. Your task is to choose a flower type for each garden such that, for any 2 gardens connected by a path, they have different types of flowers. Return an array answer, where answer[i] is the type of flower planted in (i+1)-th garden.

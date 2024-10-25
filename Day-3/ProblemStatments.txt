@@ -1,0 +1,18 @@
+1. Write a program to check if the given array is a zigzag array or not. Zigzag Array: Let A[0,...,n-1] be an array of distinct integer, 
+we call A as zigzag array if for some indices i and j, 0<i<j<n-1 and A [0,...,i] is sorted in increasing order, A[i,...,j] is sorted in 
+decreasing order, and, Alj,...,n-1] is sorted in increasing order.
+
+2. You are given an unsorted array A = {a1, a2, .... , an} of n elements and a target sum T. Your task is to locate two 
+elements a_i, a_j, in A (with i != j) such that a_i + a_j is as large as possible, but no larger than T.
+
+3. Given a List of daily stock price (in integer), return the buy and sell price that will maximize the single buy/sell profit. If you 
+cant make profit, try to minimize the loss. (The price will be in sorted form with respect to market hours of the day).
+Sample Input: 8, 5, 12, 9, 19, 1: profit of 14 Rs.
+Sample Input: 21, 12, 11, 9, 6, 3: Loss of 1 Rs.
+
+4. Write a program to check if the given sentence is word-wise palindromic or character-wise palindromic or none of them. (Assume 
+single space between two words).
+Sample input 1: king are you glad you are king: word-wise palindromic
+Sample input 2: was it a cat or a cat i saw: character-wise palindromic
+
+5. Read an integer N. Then read in N numbers and print their maximum and second maximum (without use of arrays).

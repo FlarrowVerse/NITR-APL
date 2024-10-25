@@ -1,0 +1,10 @@
+1. An image is specified by a 2D array of pixels (assume only 2 levels 0 and 1). Write a program to flip the array  horizontally (in-place and time complexity of O(n^2)).
+
+2. You are given an array A[0...n-1] storing exactly n of the n+1 integers 0, 1, ..., n. This means that exactly one integer x is missing in A. Your task is to determine x.
+- If A is unsorted, write a program which can find x in O(n) time. 
+- If A is sorted (in ascending order),  write a program which can find x in O(log n) time.
+
+3. You are given an integer array A and an integer target T. Your task is to build an expression out of A by adding one of the symbols '+' and '-' before each integer in A and then concatenate all the integers, such that it can attain T.
+For example: if A = [2, 1, 1] and T = 2 => +2+1-1, +2-1+1
+
+4. You are given a string of opening and closing parenthesis i.e. ((())((()))). Write a program to return the maximum depth of parentheses.

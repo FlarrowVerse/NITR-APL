@@ -1,0 +1,15 @@
+1. Let A be an unsorted array with n=2k integers. It is given that exactly half of the elements of array are positive and half of them are negative. Write a program t change A such that the negative and positive elements of the array are positioned alternatively.
+- the swapping should be done in-place (do not use extra array)
+- the complexity of the program should be O(n)
+
+2. Write a program to build a pentagon P_n, such that the outermost pentagon in P_n contains n dots in each side. In second outermost P_n consists of n-1 dots and so on.
+
+3. Given an integer n, return the least number of perfect squares numbers that sum to n.
+- a perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, 1.4.9.16 are perfect squares
+- Input: 12, Output: 4 + 4 + 4
+- Input: 13, Output: 4 + 9
+
+4. Given an integer n, break it into the sum of k positive integers, where k >= 2, such that the product of those integers are maximum as compared to other possibilities.
+- Input: 10
+- Output: 3 + 3 + 4, (3 x 3 x 4 = 36)
+- Wrong Outputs: 2 + 4 + 4, (2 x 4 x 4 = 32); 5 + 5, (5 x 5 = 25)

@@ -1,0 +1,13 @@
+1. Write a program to generate a topological sort for directed acyclic graph.
+
+2. You have a set of pairwise distinct binary strings. Let n be the sum of the lengths of the strings. You can store the strings in a rooted binary tree with at most (n+1) nodes. Some nodes in (including all leaf nodes) are marked. Imagine each left child is labelled with 0 and each right child is labelled by 1. The tree is said to store binary string s if there exists a marked node v in the tree such that a unique path from root to v is labelled by the symbols of s and the path ends with a marked node.
+a) Write a program to insert a binary string s in the tree (if already exists no change)
+b) Write a program to print all the strings stored in the tree.
+
+3. You are given a black box implementation of a stack. You don't know how the stack data is organized. All you can do is perform basic utility functions on the stack:
+stack initStack()
+int isEmpty(Stack s)
+Stack push(Stack s, int x)
+Stack pop(Stack s)
+int top(Stack s)
+Write a recursive function to sort a stack. The function modifies original stack to a sorted stack (non-decreasing from bottom to top)

@@ -1,0 +1,17 @@
+1. You are given a 2D  array of size n x n where all the elements are distinct integers between 1 and n^2, and every integer appears exactly once. Starting from any cell in this matrix you can move up, down, left and right in a non-wrap around fashion and without leaving the matrix. Path in a matrix is a sequence of cells based on the four moves. Starting from any cell, a maximum length path is defined as the largest sequence of cells such that the values in the cells along the path are in increasing order with an increment of one encountered in each move. As an example, consider the following 3 x 3 matrix:
+
+|2|5|1|
+|3|6|9|
+|4|7|8| Starting from (R0, C1) the longest path is 5 -> 6 -> 7 -> 8 -> 9 with length 5
+
+Write a program to find the number of cells and moves starting from a given cell that would give the longest path.
+
+2. A sorted array A with n elements is cyclically right shifted by K positions. For example, the sorted array, 3, 9, 11, 12, 17 cyclically right-shifted by 2 positions is the array 12, 17, 3, 9, 11. You are given the right shifted array A (and n) but not K. Write a program to find out the maximum element of A in O(log n) time.
+
+3. You have a box of N chocolates. On each day, you eat one, two or three chocolates. You want to finish all the chocolates in exactly K days. In how many ways can this be done?
+Sample Input: 
+Enter number of chocolates: 6
+Enter number of days: 3
+Sample Output: 7
+
+4. Write a program that takes three integers and checks whether the sum of any two is greater than the third.
