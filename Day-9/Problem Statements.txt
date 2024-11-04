@@ -1,0 +1,8 @@
+1.Write a Program to return area of a triangle, rectangle, square and circle using
+i) function overloading
+ii) function overriding
+
+2.a) Write a Java program to create a producer-consumer scenario using wait() and notify() methods for thread synchronization.
+2.b) Write a Java program to demonstrate semaphores using thread synchronization.
+
+3. Write a Java Program to create a method that takes a string as input and throws an exception if the string does not contain any vowels.

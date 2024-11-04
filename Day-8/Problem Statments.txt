@@ -1,0 +1,3 @@
+1. There is a square field of size n with a food at its center. A mouse starts from the bottom left corner of the field. It can move in a specific direction in the exact sequence of North, East, South, West. First time it can move n meters towards North, on the next 90% of n towards East, on the next move 90% of 90% of n towards South, and so on in a spiral fashion. If the mouse comes within 1m of food source it will eat it. Determine if the mouse can reach the food and in how many moves.
+
+2. There is a given array of size 2k + 1, containing the roll numbers of students from 0 to 2k. The students should be paired up such that their difference in roll number is 1, for instance, (0,1), (2,3), etc. Find out the minimum number of swaps required to do so.
