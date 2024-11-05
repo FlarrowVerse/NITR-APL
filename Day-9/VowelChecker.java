@@ -19,11 +19,15 @@ public class VowelChecker {
      * @throws NoVowelException
      */
     public static void checkVowel(String str) throws NoVowelException {
-        if ("aeiouAEIOU".indexOf(str) == -1) {
-            throw new NoVowelException(String.format("Exception: %s does not contain any vowel!", str));            
-        } else {
-            System.out.printf("%s contains vowels.\n", str);
+        boolean contains = false;
+        for (char c : str.toCharArray()) {
+            if ("aeiouAEIOU".indexOf(c) != -1) {
+                contains = true;
+                break;
+            }
         }
+        if (!contains)
+            throw new NoVowelException(String.format("Exception: %s does not contain any vowel!", str));            
     }
 
     /**
@@ -36,6 +40,7 @@ public class VowelChecker {
         System.out.print("Enter a string: ");
         try {
             checkVowel(sc.nextLine());
+            System.out.println("String contains vowels");
         } catch (NoVowelException e) {
             System.err.println(e.getMessage());
         }
